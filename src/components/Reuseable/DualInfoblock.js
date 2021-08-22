@@ -31,15 +31,15 @@ export default function DualInfoblock({ heading, img }) {
             </p>
           </div>
           <div className="col-4">
-            <div class="card">
+            <div className="card">
               <img
                 src={img}
-                class="card-img-top"
+                className="card-img-top"
                 alt="image goes here"
               />
-              <div class="card-body">
-                <h5 class="card-title">Just click photos</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Just click photos</h5>
+                <p className="card-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Veniam, magnam maxime eligendi aut quos ex pariatur quisquam
                   quo magni voluptas reprehenderit assumenda eius suscipit esse,
