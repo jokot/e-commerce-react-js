@@ -10,7 +10,7 @@ import TeamSection from "../components/About/TeamSection"
 
 const AboutPage = ({ data }) => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="About" />
     <HeroSection
       img={data.img.childImageSharp.fluid}
       title="About Learn Code With"
@@ -21,7 +21,7 @@ const AboutPage = ({ data }) => (
       img="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500"
     />
     <Infoblock heading="Vision" />
-    <TeamSection/>
+    <TeamSection />
   </Layout>
 )
 

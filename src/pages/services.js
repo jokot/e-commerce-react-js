@@ -9,7 +9,7 @@ import ProductSection from "../components/Services/ProductSection"
 
 const ServicesPage = ({ data }) => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Services" />
     <HeroSection
       img={data.img.childImageSharp.fluid}
       title="What You want?"
