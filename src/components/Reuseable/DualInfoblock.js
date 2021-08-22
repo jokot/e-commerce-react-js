@@ -6,7 +6,7 @@ export default function DualInfoblock({ heading, img }) {
   return (
     <section className="my-4 py-4 bg-theme">
       <div className="container">
-        <Heading title={heading} />
+        <Heading title={heading} textColor="text-white" />
         <div className="row">
           <div className="col-8 mx-auto">
             <p className="lead text-white mb-5">
@@ -32,11 +32,7 @@ export default function DualInfoblock({ heading, img }) {
           </div>
           <div className="col-4">
             <div className="card">
-              <img
-                src={img}
-                className="card-img-top"
-                alt="image goes here"
-              />
+              <img src={img} className="card-img-top" alt="image goes here" />
               <div className="card-body">
                 <h5 className="card-title">Just click photos</h5>
                 <p className="card-text">
@@ -46,7 +42,7 @@ export default function DualInfoblock({ heading, img }) {
                   laborum fuga ad ipsam atque!
                 </p>
                 <Link to="#" className="btn btn-warning btn-block">
-                    {heading}
+                  {heading}
                 </Link>
               </div>
             </div>

@@ -15,10 +15,9 @@ export default class CourseCart extends Component {
     return (
       <section className="py-5">
         <div className="container">
-          <Heading title="Courses" />
+          <Heading title="Courses" textColor="text-black" />
           <div className="row">
             {this.state.courses.map(({ node }) => {
-              console.log(node.image.fixed)
               return (
                 <div
                   key={node.id}

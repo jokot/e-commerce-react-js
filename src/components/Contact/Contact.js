@@ -5,7 +5,7 @@ export default function Contact() {
   const formSpreeAction = "https://formspree.io/f/" + process.env.FORM_ID
   return (
     <section className="py-3">
-      <Heading title="Contact Us" />
+      <Heading title="Contact Us" textColor="text-black" />
       <div className="col-10 col-sm-8 mx-auto">
         <form action={formSpreeAction} method="POST">
           <div className="form-group">
