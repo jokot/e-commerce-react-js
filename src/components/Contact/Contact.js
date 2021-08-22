@@ -2,12 +2,11 @@ import React from "react"
 import Heading from "../Reuseable/Heading"
 
 export default function Contact() {
-  const formSpreeAction = "https://formspree.io/f/" + process.env.FORM_ID
   return (
     <section className="py-3">
       <Heading title="Contact Us" textColor="text-black" />
       <div className="col-10 col-sm-8 mx-auto">
-        <form action={formSpreeAction} method="POST">
+        <form action="https://formspree.io/f/meqvpvdv" method="POST">
           <div className="form-group">
             <input
               type="text"
