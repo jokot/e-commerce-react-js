@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import HeroSection from "../components/Reuseable/HeroSection"
 import Infoblock from "../components/Reuseable/Infoblock"
-import Contact from "../components/Contact/contact"
+import Contact from "../components/Contact/Contact"
 
 const ContactPage = ({ data }) => (
   <Layout>
